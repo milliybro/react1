@@ -1,0 +1,129 @@
+.article-header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.article-header h1 {
+   color: #211F54;
+   font-family: Roboto;
+   font-size: 48px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 57.984px;
+   /* 120.8% */
+}
+
+.explore-btn button {
+   padding: 26px 38px;
+   border-radius: 14px;
+   background: #FFF;
+   color: #211F54;
+   text-align: center;
+   font-family: Roboto;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 19.998px;
+   /* 111.1% */
+   border: 1px solid #EFF0F6;
+}
+
+.explore-btn button:hover {
+   color: #fff;
+   background-color: #0075FF;
+   border: 1px solid #0075FF;
+}
+
+.article-header-btn {
+   display: flex;
+   gap: 28px;
+}
+.article-item{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-gap: 28px;
+   padding-top: 78px;
+   padding-bottom: 130px;
+}
+
+.article-card {
+   display: flex;
+   flex-direction: column;
+   margin: 0 auto;
+   position: relative;
+
+}
+
+.article-card-text {
+   position: relative;
+   top: -60px;
+   margin: 0 30px;
+   border-radius: 24px;
+   border: 1px solid #EFF0F6;
+   background: #FFF;
+   box-shadow: 0px 2px 6px 0px rgba(20, 20, 43, 0.04);
+   padding: 52px 49px 49px 49px;
+
+}
+
+.article-card-text h3 {
+   color: #211F54;
+   font-family: Roboto;
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 34.008px;
+   /* 141.7% */
+}
+
+.article-card-text p {
+   color: #6E7191;
+   font-family: Roboto;
+   font-size: 21px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 30.006px;
+   /* 142.886% */
+   padding-top: 17px;
+   padding-bottom: 10px;
+}
+
+.article-card-text h5 {
+   color: #211F54;
+   font-family: Roboto;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 19.998px;
+   /* 111.1% */
+}
+.article-card-footer {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.rectangel {
+   background: #0075FF;
+   width: 50px;height: 50px;
+}
+
+@media (max-width: 600px) {
+   .article-header {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+   }
+}
+
+@media (max-width: 1260px) {
+   .article-item{
+      grid-template-columns: repeat(1, 1fr);
+   }
+}
+
+@media (max-width: 600px) {
+   .article-card img {
+      width: 100%;
+   }
+}

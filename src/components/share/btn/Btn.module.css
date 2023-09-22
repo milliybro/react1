@@ -1,0 +1,19 @@
+.main-btn button {
+   padding: 26px 38px;
+   border-radius: 14px;
+   background: #0075FF;
+   color: #FFF;
+   text-align: center;
+   font-family: Roboto;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 20px;
+   border: 1px solid #0075FF;
+}
+
+.main-btn button:hover {
+   color: #0075FF;
+   background-color: #FFF;
+   border: 1px solid #0075FF;
+}

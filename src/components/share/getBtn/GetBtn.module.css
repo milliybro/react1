@@ -1,0 +1,20 @@
+.main-btn button {
+   padding: 17px 24px;
+   border-radius: 14px;
+   background: #0075FF;
+   color: #FFF;
+   border: 1px solid #FFF;
+   text-align: center;
+   font-family: Roboto;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 18px;
+   /* 112.5% */
+}
+
+.main-btn button:hover{
+   color: #0075FF;
+   background-color: #FFF;
+   border: 1px solid #0075FF;
+}

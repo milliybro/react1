@@ -1,0 +1,33 @@
+.phone {
+   display: flex;
+   align-items: center;
+   gap: 16px;
+}
+
+.phone-call {
+   display: flex;
+   flex-direction: column;
+   gap: 4px;
+}
+
+.phone-call h6 {
+   color: #6E7191;
+   font-family: Roboto;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 18px;
+   /* 112.5% */
+   letter-spacing: 1.6px;
+   text-transform: uppercase;
+}
+
+.phone-call h3 {
+   color: #211F54;
+   font-family: Roboto;
+   font-size: 28px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 36.008px;
+   /* 128.6% */
+}
